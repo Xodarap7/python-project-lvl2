@@ -20,9 +20,14 @@ def test_diff_stylish_json(file1, file2, right_answer, format_name):
     path_dict1 = get_fixture_path(file1)
     path_dict2 = get_fixture_path(file2)
     path_right_answer = get_fixture_path(right_answer)
+    print("\npaths___", path_dict1, path_dict2, right_answer)
+
     with open('{}'.format(path_right_answer)) as f:
         right_answer = f.read()[:-1]
+    print('\nright answer___', right_answer)
+
     assert generate_diff(path_dict1, path_dict2, format_name) == right_answer
+
     if format_name == 'stylish':
         assert generate_diff(path_dict1, path_dict2) == right_answer
 

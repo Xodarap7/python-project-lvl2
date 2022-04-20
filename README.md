@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 ![hexlet-check](https://github.com/Xodarap7/python-project-lvl2/workflows/hexlet-check/badge.svg)
-![Python CI](https://github.com/Xodarap7/python-project-lvl2/workflows/Python%20CI/badge.svg)<br>
+![Python CI](https://github.com/Evglit/python-project-lvl2/workflows/Python%20CI/badge.svg)<br>
 
 
 <h3>Вычислитель отличий</h3>
