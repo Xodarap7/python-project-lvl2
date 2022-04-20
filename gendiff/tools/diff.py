@@ -1,8 +1,5 @@
-"""Create a difference between two dictionaries."""
-
-
-def diff(dict1, dict2):
-    """Create a difference between two dictionaries. Return list."""
+def diff(dict1, dict2) -> list:
+    """Create a difference between two dictionaries"""
     result = []
     keys = sorted(dict1.keys() | dict2.keys())
     for key in keys:
